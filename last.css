@@ -1,0 +1,59 @@
+body {
+  background-image: url("images/bg5.jpg");
+  background-size: cover;
+  font-family: "Arial", sans-serif;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  color: #e9dccd;
+}
+
+.voice-note-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background: #fff;
+  border: 2px solid #ace1af;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 2s;
+}
+
+.voice-note-card {
+  background-color: #000;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.heart-img {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.message-text {
+  font-size: 1.2rem;
+  color: #849974;
+  margin-bottom: 20px;
+}
+
+audio {
+  width: 100%;
+  outline: none;
+}
+
+@media (max-width: 600px) {
+  .voice-note-container {
+    max-width: 100%;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
