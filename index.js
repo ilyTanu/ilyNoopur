@@ -4,7 +4,7 @@ document
     event.preventDefault();
 
     const secretCode = document.getElementById("secretCode").value;
-    const correctCode = "TT25062308.";
+    const correctCode = "TT23082506";
     const errorMessage = document.getElementById("errorMessage");
 
     if (secretCode === correctCode) {
